@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F5FA827E2040C00129E2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F5FA727E2040C00129E2B /* AppDelegate.m */; };
+		040F5FAE27E2040C00129E2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F5FAD27E2040C00129E2B /* ViewController.m */; };
+		040F5FB127E2040C00129E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F5FAF27E2040C00129E2B /* Main.storyboard */; };
+		040F5FB327E2040E00129E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F5FB227E2040E00129E2B /* Assets.xcassets */; };
+		040F5FB627E2040E00129E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F5FB427E2040E00129E2B /* LaunchScreen.storyboard */; };
+		040F5FB927E2040E00129E2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F5FB827E2040E00129E2B /* main.m */; };
+		04CF9A3D27F588DE00502371 /* TGTNMyExcelToolBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A3C27F588DE00502371 /* TGTNMyExcelToolBaseView.m */; };
+		04CF9A4027F5B14500502371 /* TGTNMyExcelToolBaseMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A3F27F5B14500502371 /* TGTNMyExcelToolBaseMainView.m */; };
+		04CF9A4327F5C1A200502371 /* TGTNMyExcelToolBaseHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A4227F5C1A200502371 /* TGTNMyExcelToolBaseHeadView.m */; };
+		04CF9A4627F5C1B000502371 /* TGTNMyExcelToolBaseLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A4527F5C1B000502371 /* TGTNMyExcelToolBaseLeftView.m */; };
+		04CF9A4927F5C25E00502371 /* TGTNMyExcelToolBaseHeadFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A4827F5C25E00502371 /* TGTNMyExcelToolBaseHeadFunctionView.m */; };
+		04CF9A4C27F5C26A00502371 /* TGTNMyExcelToolBaseLeftFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A4B27F5C26A00502371 /* TGTNMyExcelToolBaseLeftFunctionView.m */; };
+		04CF9A4F27F5C61400502371 /* TGTNMyExcelToolBaseMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A4E27F5C61400502371 /* TGTNMyExcelToolBaseMainModel.m */; };
+		04CF9A5227F5C62500502371 /* TGTNMyExcelToolBaseHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A5127F5C62500502371 /* TGTNMyExcelToolBaseHeadModel.m */; };
+		04CF9A5527F5C63100502371 /* TGTNMyExcelToolBaseLeftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A5427F5C63100502371 /* TGTNMyExcelToolBaseLeftModel.m */; };
+		04CF9A5B27F5C64A00502371 /* TGTNMyExcelToolBaseLeftFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A5A27F5C64A00502371 /* TGTNMyExcelToolBaseLeftFunctionModel.m */; };
+		04CF9A5E27F5C66400502371 /* TGTNMyExcelToolBaseHeadFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A5D27F5C66400502371 /* TGTNMyExcelToolBaseHeadFunctionModel.m */; };
+		04CF9A6227F5D55200502371 /* TGTNMyExcelToolBaseMainChildModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A6127F5D55200502371 /* TGTNMyExcelToolBaseMainChildModel.m */; };
+		04CF9A6527F5D6CA00502371 /* TGTNMyExcelToolBaseMainChildItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A6427F5D6CA00502371 /* TGTNMyExcelToolBaseMainChildItemModel.m */; };
+		04CF9A6827F5D88000502371 /* TGTNMyExcelToolBaseHeadChildModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A6727F5D88000502371 /* TGTNMyExcelToolBaseHeadChildModel.m */; };
+		04CF9A6B27F5D89A00502371 /* TGTNMyExcelToolBaseLeftChildModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9A6A27F5D89A00502371 /* TGTNMyExcelToolBaseLeftChildModel.m */; };
+		04D2F70227F6D84200A339BD /* TGTNMyExcelToolExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F70127F6D84200A339BD /* TGTNMyExcelToolExcelView.m */; };
+		04D2F70527F6D86600A339BD /* TGTNMyExcelToolExcelMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F70427F6D86600A339BD /* TGTNMyExcelToolExcelMainView.m */; };
+		04D2F70827F6D8B700A339BD /* TGTNMyExcelToolExcelLeftFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F70727F6D8B700A339BD /* TGTNMyExcelToolExcelLeftFunctionView.m */; };
+		04D2F70B27F6D8C900A339BD /* TGTNMyExcelToolExcelHeadFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F70A27F6D8C900A339BD /* TGTNMyExcelToolExcelHeadFunctionView.m */; };
+		04D2F70E27F6D8DA00A339BD /* TGTNMyExcelToolExcelHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F70D27F6D8DA00A339BD /* TGTNMyExcelToolExcelHeadView.m */; };
+		04D2F71227F6DC3C00A339BD /* TGTNMyExcelToolExcelHeadChildModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F71127F6DC3C00A339BD /* TGTNMyExcelToolExcelHeadChildModel.m */; };
+		04D2F71527F6DCAB00A339BD /* TGTNMyExcelToolExcelMainChildItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F71427F6DCAB00A339BD /* TGTNMyExcelToolExcelMainChildItemModel.m */; };
+		04D2F71827F6DD1F00A339BD /* TGTNMyExcelToolExcelHeadFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F71727F6DD1F00A339BD /* TGTNMyExcelToolExcelHeadFunctionModel.m */; };
+		04D2F71B27F6DDCF00A339BD /* TGTNMyExcelToolExcelLeftFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F71A27F6DDCF00A339BD /* TGTNMyExcelToolExcelLeftFunctionModel.m */; };
+		04D2F71E27F6DE7900A339BD /* TGTNMyExcelToolExcelHeadCustomDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F71D27F6DE7900A339BD /* TGTNMyExcelToolExcelHeadCustomDataModel.m */; };
+		04D2F72127F6DEDF00A339BD /* TGTNMyExcelToolExcelMainChildCustomDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F72027F6DEDF00A339BD /* TGTNMyExcelToolExcelMainChildCustomDataModel.m */; };
+		04D2F72427F6EE8100A339BD /* TGTNMyExcelToolExcelHeadCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F72327F6EE8100A339BD /* TGTNMyExcelToolExcelHeadCustomView.m */; };
+		04D2F72727F6F59800A339BD /* TGTNMyExcelToolExcelMainCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F72627F6F59800A339BD /* TGTNMyExcelToolExcelMainCustomView.m */; };
+		04D2F72A27F6FADB00A339BD /* TGTNMyExcelToolExcelMainCustomItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F72927F6FADB00A339BD /* TGTNMyExcelToolExcelMainCustomItemView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040F5FA327E2040C00129E2B /* TGTNExcelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGTNExcelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F5FA627E2040C00129E2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040F5FA727E2040C00129E2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040F5FAC27E2040C00129E2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040F5FAD27E2040C00129E2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040F5FB027E2040C00129E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040F5FB227E2040E00129E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040F5FB527E2040E00129E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040F5FB727E2040E00129E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040F5FB827E2040E00129E2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CF9A3B27F588DE00502371 /* TGTNMyExcelToolBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseView.h; sourceTree = "<group>"; };
+		04CF9A3C27F588DE00502371 /* TGTNMyExcelToolBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseView.m; sourceTree = "<group>"; };
+		04CF9A3E27F5B14500502371 /* TGTNMyExcelToolBaseMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseMainView.h; sourceTree = "<group>"; };
+		04CF9A3F27F5B14500502371 /* TGTNMyExcelToolBaseMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseMainView.m; sourceTree = "<group>"; };
+		04CF9A4127F5C1A200502371 /* TGTNMyExcelToolBaseHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseHeadView.h; sourceTree = "<group>"; };
+		04CF9A4227F5C1A200502371 /* TGTNMyExcelToolBaseHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseHeadView.m; sourceTree = "<group>"; };
+		04CF9A4427F5C1B000502371 /* TGTNMyExcelToolBaseLeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseLeftView.h; sourceTree = "<group>"; };
+		04CF9A4527F5C1B000502371 /* TGTNMyExcelToolBaseLeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseLeftView.m; sourceTree = "<group>"; };
+		04CF9A4727F5C25E00502371 /* TGTNMyExcelToolBaseHeadFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseHeadFunctionView.h; sourceTree = "<group>"; };
+		04CF9A4827F5C25E00502371 /* TGTNMyExcelToolBaseHeadFunctionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseHeadFunctionView.m; sourceTree = "<group>"; };
+		04CF9A4A27F5C26A00502371 /* TGTNMyExcelToolBaseLeftFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseLeftFunctionView.h; sourceTree = "<group>"; };
+		04CF9A4B27F5C26A00502371 /* TGTNMyExcelToolBaseLeftFunctionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseLeftFunctionView.m; sourceTree = "<group>"; };
+		04CF9A4D27F5C61400502371 /* TGTNMyExcelToolBaseMainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseMainModel.h; sourceTree = "<group>"; };
+		04CF9A4E27F5C61400502371 /* TGTNMyExcelToolBaseMainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseMainModel.m; sourceTree = "<group>"; };
+		04CF9A5027F5C62500502371 /* TGTNMyExcelToolBaseHeadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseHeadModel.h; sourceTree = "<group>"; };
+		04CF9A5127F5C62500502371 /* TGTNMyExcelToolBaseHeadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseHeadModel.m; sourceTree = "<group>"; };
+		04CF9A5327F5C63100502371 /* TGTNMyExcelToolBaseLeftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseLeftModel.h; sourceTree = "<group>"; };
+		04CF9A5427F5C63100502371 /* TGTNMyExcelToolBaseLeftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseLeftModel.m; sourceTree = "<group>"; };
+		04CF9A5927F5C64A00502371 /* TGTNMyExcelToolBaseLeftFunctionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseLeftFunctionModel.h; sourceTree = "<group>"; };
+		04CF9A5A27F5C64A00502371 /* TGTNMyExcelToolBaseLeftFunctionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseLeftFunctionModel.m; sourceTree = "<group>"; };
+		04CF9A5C27F5C66400502371 /* TGTNMyExcelToolBaseHeadFunctionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseHeadFunctionModel.h; sourceTree = "<group>"; };
+		04CF9A5D27F5C66400502371 /* TGTNMyExcelToolBaseHeadFunctionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseHeadFunctionModel.m; sourceTree = "<group>"; };
+		04CF9A6027F5D55200502371 /* TGTNMyExcelToolBaseMainChildModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseMainChildModel.h; sourceTree = "<group>"; };
+		04CF9A6127F5D55200502371 /* TGTNMyExcelToolBaseMainChildModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseMainChildModel.m; sourceTree = "<group>"; };
+		04CF9A6327F5D6CA00502371 /* TGTNMyExcelToolBaseMainChildItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseMainChildItemModel.h; sourceTree = "<group>"; };
+		04CF9A6427F5D6CA00502371 /* TGTNMyExcelToolBaseMainChildItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseMainChildItemModel.m; sourceTree = "<group>"; };
+		04CF9A6627F5D88000502371 /* TGTNMyExcelToolBaseHeadChildModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseHeadChildModel.h; sourceTree = "<group>"; };
+		04CF9A6727F5D88000502371 /* TGTNMyExcelToolBaseHeadChildModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseHeadChildModel.m; sourceTree = "<group>"; };
+		04CF9A6927F5D89A00502371 /* TGTNMyExcelToolBaseLeftChildModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolBaseLeftChildModel.h; sourceTree = "<group>"; };
+		04CF9A6A27F5D89A00502371 /* TGTNMyExcelToolBaseLeftChildModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolBaseLeftChildModel.m; sourceTree = "<group>"; };
+		04D2F70027F6D84200A339BD /* TGTNMyExcelToolExcelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelView.h; sourceTree = "<group>"; };
+		04D2F70127F6D84200A339BD /* TGTNMyExcelToolExcelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelView.m; sourceTree = "<group>"; };
+		04D2F70327F6D86600A339BD /* TGTNMyExcelToolExcelMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelMainView.h; sourceTree = "<group>"; };
+		04D2F70427F6D86600A339BD /* TGTNMyExcelToolExcelMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelMainView.m; sourceTree = "<group>"; };
+		04D2F70627F6D8B700A339BD /* TGTNMyExcelToolExcelLeftFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelLeftFunctionView.h; sourceTree = "<group>"; };
+		04D2F70727F6D8B700A339BD /* TGTNMyExcelToolExcelLeftFunctionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelLeftFunctionView.m; sourceTree = "<group>"; };
+		04D2F70927F6D8C900A339BD /* TGTNMyExcelToolExcelHeadFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelHeadFunctionView.h; sourceTree = "<group>"; };
+		04D2F70A27F6D8C900A339BD /* TGTNMyExcelToolExcelHeadFunctionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelHeadFunctionView.m; sourceTree = "<group>"; };
+		04D2F70C27F6D8DA00A339BD /* TGTNMyExcelToolExcelHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelHeadView.h; sourceTree = "<group>"; };
+		04D2F70D27F6D8DA00A339BD /* TGTNMyExcelToolExcelHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelHeadView.m; sourceTree = "<group>"; };
+		04D2F71027F6DC3C00A339BD /* TGTNMyExcelToolExcelHeadChildModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelHeadChildModel.h; sourceTree = "<group>"; };
+		04D2F71127F6DC3C00A339BD /* TGTNMyExcelToolExcelHeadChildModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelHeadChildModel.m; sourceTree = "<group>"; };
+		04D2F71327F6DCAB00A339BD /* TGTNMyExcelToolExcelMainChildItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelMainChildItemModel.h; sourceTree = "<group>"; };
+		04D2F71427F6DCAB00A339BD /* TGTNMyExcelToolExcelMainChildItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelMainChildItemModel.m; sourceTree = "<group>"; };
+		04D2F71627F6DD1F00A339BD /* TGTNMyExcelToolExcelHeadFunctionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelHeadFunctionModel.h; sourceTree = "<group>"; };
+		04D2F71727F6DD1F00A339BD /* TGTNMyExcelToolExcelHeadFunctionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelHeadFunctionModel.m; sourceTree = "<group>"; };
+		04D2F71927F6DDCF00A339BD /* TGTNMyExcelToolExcelLeftFunctionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelLeftFunctionModel.h; sourceTree = "<group>"; };
+		04D2F71A27F6DDCF00A339BD /* TGTNMyExcelToolExcelLeftFunctionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelLeftFunctionModel.m; sourceTree = "<group>"; };
+		04D2F71C27F6DE7900A339BD /* TGTNMyExcelToolExcelHeadCustomDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelHeadCustomDataModel.h; sourceTree = "<group>"; };
+		04D2F71D27F6DE7900A339BD /* TGTNMyExcelToolExcelHeadCustomDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelHeadCustomDataModel.m; sourceTree = "<group>"; };
+		04D2F71F27F6DEDF00A339BD /* TGTNMyExcelToolExcelMainChildCustomDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelMainChildCustomDataModel.h; sourceTree = "<group>"; };
+		04D2F72027F6DEDF00A339BD /* TGTNMyExcelToolExcelMainChildCustomDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelMainChildCustomDataModel.m; sourceTree = "<group>"; };
+		04D2F72227F6EE8100A339BD /* TGTNMyExcelToolExcelHeadCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelHeadCustomView.h; sourceTree = "<group>"; };
+		04D2F72327F6EE8100A339BD /* TGTNMyExcelToolExcelHeadCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelHeadCustomView.m; sourceTree = "<group>"; };
+		04D2F72527F6F59800A339BD /* TGTNMyExcelToolExcelMainCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelMainCustomView.h; sourceTree = "<group>"; };
+		04D2F72627F6F59800A339BD /* TGTNMyExcelToolExcelMainCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelMainCustomView.m; sourceTree = "<group>"; };
+		04D2F72827F6FADB00A339BD /* TGTNMyExcelToolExcelMainCustomItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNMyExcelToolExcelMainCustomItemView.h; sourceTree = "<group>"; };
+		04D2F72927F6FADB00A339BD /* TGTNMyExcelToolExcelMainCustomItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNMyExcelToolExcelMainCustomItemView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040F5FA027E2040C00129E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F5F9A27E2040C00129E2B = {
+			isa = PBXGroup;
+			children = (
+				040F5FA527E2040C00129E2B /* TGTNExcelView */,
+				040F5FA427E2040C00129E2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040F5FA427E2040C00129E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040F5FA327E2040C00129E2B /* TGTNExcelView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040F5FA527E2040C00129E2B /* TGTNExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				04CF9A3727F5888700502371 /* TGTNMyExcelTool */,
+				040F5FA627E2040C00129E2B /* AppDelegate.h */,
+				040F5FA727E2040C00129E2B /* AppDelegate.m */,
+				040F5FAC27E2040C00129E2B /* ViewController.h */,
+				040F5FAD27E2040C00129E2B /* ViewController.m */,
+				040F5FAF27E2040C00129E2B /* Main.storyboard */,
+				040F5FB227E2040E00129E2B /* Assets.xcassets */,
+				040F5FB427E2040E00129E2B /* LaunchScreen.storyboard */,
+				040F5FB727E2040E00129E2B /* Info.plist */,
+				040F5FB827E2040E00129E2B /* main.m */,
+			);
+			path = TGTNExcelView;
+			sourceTree = "<group>";
+		};
+		04CF9A3727F5888700502371 /* TGTNMyExcelTool */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F6FC27F6D81500A339BD /* TGTNCustomExcel */,
+				04CF9A3827F5889D00502371 /* TGTNBase */,
+			);
+			path = TGTNMyExcelTool;
+			sourceTree = "<group>";
+		};
+		04CF9A3827F5889D00502371 /* TGTNBase */ = {
+			isa = PBXGroup;
+			children = (
+				04CF9A3927F588AC00502371 /* MODEL */,
+				04CF9A3A27F588AC00502371 /* VIEW */,
+			);
+			path = TGTNBase;
+			sourceTree = "<group>";
+		};
+		04CF9A3927F588AC00502371 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				04CF9A5F27F5D49F00502371 /* Child */,
+				04CF9A5C27F5C66400502371 /* TGTNMyExcelToolBaseHeadFunctionModel.h */,
+				04CF9A5D27F5C66400502371 /* TGTNMyExcelToolBaseHeadFunctionModel.m */,
+				04CF9A5027F5C62500502371 /* TGTNMyExcelToolBaseHeadModel.h */,
+				04CF9A5127F5C62500502371 /* TGTNMyExcelToolBaseHeadModel.m */,
+				04CF9A5927F5C64A00502371 /* TGTNMyExcelToolBaseLeftFunctionModel.h */,
+				04CF9A5A27F5C64A00502371 /* TGTNMyExcelToolBaseLeftFunctionModel.m */,
+				04CF9A5327F5C63100502371 /* TGTNMyExcelToolBaseLeftModel.h */,
+				04CF9A5427F5C63100502371 /* TGTNMyExcelToolBaseLeftModel.m */,
+				04CF9A4D27F5C61400502371 /* TGTNMyExcelToolBaseMainModel.h */,
+				04CF9A4E27F5C61400502371 /* TGTNMyExcelToolBaseMainModel.m */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		04CF9A3A27F588AC00502371 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				04CF9A4727F5C25E00502371 /* TGTNMyExcelToolBaseHeadFunctionView.h */,
+				04CF9A4827F5C25E00502371 /* TGTNMyExcelToolBaseHeadFunctionView.m */,
+				04CF9A4127F5C1A200502371 /* TGTNMyExcelToolBaseHeadView.h */,
+				04CF9A4227F5C1A200502371 /* TGTNMyExcelToolBaseHeadView.m */,
+				04CF9A4A27F5C26A00502371 /* TGTNMyExcelToolBaseLeftFunctionView.h */,
+				04CF9A4B27F5C26A00502371 /* TGTNMyExcelToolBaseLeftFunctionView.m */,
+				04CF9A4427F5C1B000502371 /* TGTNMyExcelToolBaseLeftView.h */,
+				04CF9A4527F5C1B000502371 /* TGTNMyExcelToolBaseLeftView.m */,
+				04CF9A3E27F5B14500502371 /* TGTNMyExcelToolBaseMainView.h */,
+				04CF9A3F27F5B14500502371 /* TGTNMyExcelToolBaseMainView.m */,
+				04CF9A3B27F588DE00502371 /* TGTNMyExcelToolBaseView.h */,
+				04CF9A3C27F588DE00502371 /* TGTNMyExcelToolBaseView.m */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		04CF9A5F27F5D49F00502371 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				04CF9A6627F5D88000502371 /* TGTNMyExcelToolBaseHeadChildModel.h */,
+				04CF9A6727F5D88000502371 /* TGTNMyExcelToolBaseHeadChildModel.m */,
+				04CF9A6927F5D89A00502371 /* TGTNMyExcelToolBaseLeftChildModel.h */,
+				04CF9A6A27F5D89A00502371 /* TGTNMyExcelToolBaseLeftChildModel.m */,
+				04CF9A6327F5D6CA00502371 /* TGTNMyExcelToolBaseMainChildItemModel.h */,
+				04CF9A6427F5D6CA00502371 /* TGTNMyExcelToolBaseMainChildItemModel.m */,
+				04CF9A6027F5D55200502371 /* TGTNMyExcelToolBaseMainChildModel.h */,
+				04CF9A6127F5D55200502371 /* TGTNMyExcelToolBaseMainChildModel.m */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
+		04D2F6FC27F6D81500A339BD /* TGTNCustomExcel */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F6FD27F6D81500A339BD /* MODEL */,
+				04D2F6FE27F6D81500A339BD /* VIEW */,
+				04D2F6FF27F6D81500A339BD /* CUSTOM */,
+			);
+			path = TGTNCustomExcel;
+			sourceTree = "<group>";
+		};
+		04D2F6FD27F6D81500A339BD /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F70F27F6DC2C00A339BD /* CHILD */,
+				04D2F71627F6DD1F00A339BD /* TGTNMyExcelToolExcelHeadFunctionModel.h */,
+				04D2F71727F6DD1F00A339BD /* TGTNMyExcelToolExcelHeadFunctionModel.m */,
+				04D2F71927F6DDCF00A339BD /* TGTNMyExcelToolExcelLeftFunctionModel.h */,
+				04D2F71A27F6DDCF00A339BD /* TGTNMyExcelToolExcelLeftFunctionModel.m */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		04D2F6FE27F6D81500A339BD /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F70927F6D8C900A339BD /* TGTNMyExcelToolExcelHeadFunctionView.h */,
+				04D2F70A27F6D8C900A339BD /* TGTNMyExcelToolExcelHeadFunctionView.m */,
+				04D2F70C27F6D8DA00A339BD /* TGTNMyExcelToolExcelHeadView.h */,
+				04D2F70D27F6D8DA00A339BD /* TGTNMyExcelToolExcelHeadView.m */,
+				04D2F70627F6D8B700A339BD /* TGTNMyExcelToolExcelLeftFunctionView.h */,
+				04D2F70727F6D8B700A339BD /* TGTNMyExcelToolExcelLeftFunctionView.m */,
+				04D2F70327F6D86600A339BD /* TGTNMyExcelToolExcelMainView.h */,
+				04D2F70427F6D86600A339BD /* TGTNMyExcelToolExcelMainView.m */,
+				04D2F70027F6D84200A339BD /* TGTNMyExcelToolExcelView.h */,
+				04D2F70127F6D84200A339BD /* TGTNMyExcelToolExcelView.m */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		04D2F6FF27F6D81500A339BD /* CUSTOM */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F71C27F6DE7900A339BD /* TGTNMyExcelToolExcelHeadCustomDataModel.h */,
+				04D2F71D27F6DE7900A339BD /* TGTNMyExcelToolExcelHeadCustomDataModel.m */,
+				04D2F71F27F6DEDF00A339BD /* TGTNMyExcelToolExcelMainChildCustomDataModel.h */,
+				04D2F72027F6DEDF00A339BD /* TGTNMyExcelToolExcelMainChildCustomDataModel.m */,
+				04D2F72227F6EE8100A339BD /* TGTNMyExcelToolExcelHeadCustomView.h */,
+				04D2F72327F6EE8100A339BD /* TGTNMyExcelToolExcelHeadCustomView.m */,
+				04D2F72527F6F59800A339BD /* TGTNMyExcelToolExcelMainCustomView.h */,
+				04D2F72627F6F59800A339BD /* TGTNMyExcelToolExcelMainCustomView.m */,
+				04D2F72827F6FADB00A339BD /* TGTNMyExcelToolExcelMainCustomItemView.h */,
+				04D2F72927F6FADB00A339BD /* TGTNMyExcelToolExcelMainCustomItemView.m */,
+			);
+			path = CUSTOM;
+			sourceTree = "<group>";
+		};
+		04D2F70F27F6DC2C00A339BD /* CHILD */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F71027F6DC3C00A339BD /* TGTNMyExcelToolExcelHeadChildModel.h */,
+				04D2F71127F6DC3C00A339BD /* TGTNMyExcelToolExcelHeadChildModel.m */,
+				04D2F71327F6DCAB00A339BD /* TGTNMyExcelToolExcelMainChildItemModel.h */,
+				04D2F71427F6DCAB00A339BD /* TGTNMyExcelToolExcelMainChildItemModel.m */,
+			);
+			path = CHILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040F5FA227E2040C00129E2B /* TGTNExcelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F5FBC27E2040E00129E2B /* Build configuration list for PBXNativeTarget "TGTNExcelView" */;
+			buildPhases = (
+				040F5F9F27E2040C00129E2B /* Sources */,
+				040F5FA027E2040C00129E2B /* Frameworks */,
+				040F5FA127E2040C00129E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGTNExcelView;
+			productName = TGTNExcelView;
+			productReference = 040F5FA327E2040C00129E2B /* TGTNExcelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040F5F9B27E2040C00129E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					040F5FA227E2040C00129E2B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 040F5F9E27E2040C00129E2B /* Build configuration list for PBXProject "TGTNExcelView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040F5F9A27E2040C00129E2B;
+			productRefGroup = 040F5FA427E2040C00129E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040F5FA227E2040C00129E2B /* TGTNExcelView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040F5FA127E2040C00129E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F5FB627E2040E00129E2B /* LaunchScreen.storyboard in Resources */,
+				040F5FB327E2040E00129E2B /* Assets.xcassets in Resources */,
+				040F5FB127E2040C00129E2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040F5F9F27E2040C00129E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CF9A4F27F5C61400502371 /* TGTNMyExcelToolBaseMainModel.m in Sources */,
+				04D2F71827F6DD1F00A339BD /* TGTNMyExcelToolExcelHeadFunctionModel.m in Sources */,
+				04CF9A5227F5C62500502371 /* TGTNMyExcelToolBaseHeadModel.m in Sources */,
+				04D2F71B27F6DDCF00A339BD /* TGTNMyExcelToolExcelLeftFunctionModel.m in Sources */,
+				04D2F70827F6D8B700A339BD /* TGTNMyExcelToolExcelLeftFunctionView.m in Sources */,
+				04D2F71227F6DC3C00A339BD /* TGTNMyExcelToolExcelHeadChildModel.m in Sources */,
+				04CF9A6527F5D6CA00502371 /* TGTNMyExcelToolBaseMainChildItemModel.m in Sources */,
+				04CF9A4927F5C25E00502371 /* TGTNMyExcelToolBaseHeadFunctionView.m in Sources */,
+				04CF9A6227F5D55200502371 /* TGTNMyExcelToolBaseMainChildModel.m in Sources */,
+				04D2F71527F6DCAB00A339BD /* TGTNMyExcelToolExcelMainChildItemModel.m in Sources */,
+				04D2F72A27F6FADB00A339BD /* TGTNMyExcelToolExcelMainCustomItemView.m in Sources */,
+				040F5FAE27E2040C00129E2B /* ViewController.m in Sources */,
+				04CF9A6827F5D88000502371 /* TGTNMyExcelToolBaseHeadChildModel.m in Sources */,
+				04CF9A6B27F5D89A00502371 /* TGTNMyExcelToolBaseLeftChildModel.m in Sources */,
+				04CF9A4327F5C1A200502371 /* TGTNMyExcelToolBaseHeadView.m in Sources */,
+				04CF9A4C27F5C26A00502371 /* TGTNMyExcelToolBaseLeftFunctionView.m in Sources */,
+				04CF9A5B27F5C64A00502371 /* TGTNMyExcelToolBaseLeftFunctionModel.m in Sources */,
+				04D2F72427F6EE8100A339BD /* TGTNMyExcelToolExcelHeadCustomView.m in Sources */,
+				04D2F70B27F6D8C900A339BD /* TGTNMyExcelToolExcelHeadFunctionView.m in Sources */,
+				04D2F70527F6D86600A339BD /* TGTNMyExcelToolExcelMainView.m in Sources */,
+				04D2F70E27F6D8DA00A339BD /* TGTNMyExcelToolExcelHeadView.m in Sources */,
+				04CF9A4027F5B14500502371 /* TGTNMyExcelToolBaseMainView.m in Sources */,
+				04D2F71E27F6DE7900A339BD /* TGTNMyExcelToolExcelHeadCustomDataModel.m in Sources */,
+				04CF9A5527F5C63100502371 /* TGTNMyExcelToolBaseLeftModel.m in Sources */,
+				040F5FA827E2040C00129E2B /* AppDelegate.m in Sources */,
+				04CF9A5E27F5C66400502371 /* TGTNMyExcelToolBaseHeadFunctionModel.m in Sources */,
+				04CF9A3D27F588DE00502371 /* TGTNMyExcelToolBaseView.m in Sources */,
+				04CF9A4627F5C1B000502371 /* TGTNMyExcelToolBaseLeftView.m in Sources */,
+				040F5FB927E2040E00129E2B /* main.m in Sources */,
+				04D2F72727F6F59800A339BD /* TGTNMyExcelToolExcelMainCustomView.m in Sources */,
+				04D2F72127F6DEDF00A339BD /* TGTNMyExcelToolExcelMainChildCustomDataModel.m in Sources */,
+				04D2F70227F6D84200A339BD /* TGTNMyExcelToolExcelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040F5FAF27E2040C00129E2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F5FB027E2040C00129E2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040F5FB427E2040E00129E2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F5FB527E2040E00129E2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040F5FBA27E2040E00129E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040F5FBB27E2040E00129E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040F5FBD27E2040E00129E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TGTNExcelView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyp.TGTNExcelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040F5FBE27E2040E00129E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TGTNExcelView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyp.TGTNExcelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040F5F9E27E2040C00129E2B /* Build configuration list for PBXProject "TGTNExcelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F5FBA27E2040E00129E2B /* Debug */,
+				040F5FBB27E2040E00129E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F5FBC27E2040E00129E2B /* Build configuration list for PBXNativeTarget "TGTNExcelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F5FBD27E2040E00129E2B /* Debug */,
+				040F5FBE27E2040E00129E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040F5F9B27E2040C00129E2B /* Project object */;
+}
